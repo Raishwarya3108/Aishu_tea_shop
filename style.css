@@ -1,0 +1,50 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: #ccd81c;
+}
+
+h1 {
+    color: rgb(50, 222, 35);
+}
+
+ul {
+    list-style: none;
+}
+.whatsapp-btn {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 15px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.whatsapp-btn:hover {
+    background-color: #1ebd5a;
+}
+/* Mobile friendly */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+div {
+    background: white;
+    padding: 10px;
+    margin: 10px auto;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+}
